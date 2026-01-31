@@ -7,4 +7,6 @@ function greet(age, city) {
 
 }
 
-greet.call(person, 24, "pune");
+// greet.call(person, 24, "pune");
+
+greet.apply(person,[12,"nagpur"]);
