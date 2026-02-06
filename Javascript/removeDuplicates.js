@@ -12,7 +12,6 @@ function removeDupli(arr) {
                 break;
             }
 
-            
         }
         if (!isDuplicate) {
             dupli.push(arr[i]);
